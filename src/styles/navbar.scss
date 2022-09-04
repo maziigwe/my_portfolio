@@ -1,0 +1,28 @@
+@import "../constants/colorVariables.scss";
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: $bgcolor;
+  margin: 0;
+
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin-right: 60px;
+
+    li{
+        margin: 12px;
+        list-style-type: none;
+        font-family: $navbarFonts;
+        
+
+        a{
+          text-decoration: none;
+          font-size: 55px;
+        }
+    }
+  }
+}
+
