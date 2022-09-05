@@ -1,0 +1,30 @@
+
+@use './../custom_styles/custom' as *;
+@use './../components/mixins' as *;
+
+
+ 
+
+._navbar{
+ @include gradient($primary, $secondary);
+ .social-links{
+    ul{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    display:flex;
+
+    a{
+        padding: 0;
+        margin: 0;
+    }
+}
+    
+ }
+
+ @include media-breakpoint-down(xl){
+     ul{
+    padding-left:10px;
+    }
+ }
+}

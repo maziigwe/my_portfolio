@@ -1,0 +1,15 @@
+@use './../custom_styles/custom';
+
+//IMPORT COMPONENTS
+@use './../components/_animations';
+@use './../components/_buttons';
+@use './../components/_mixins';
+@use './../components/_typography';
+
+//IMPORT SECTIONS
+@use './../sections/_navbar';
+@use './../sections/_about';
+@use './../sections/_footer';
+@use './../sections/_projects';
+
+

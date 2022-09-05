@@ -1,0 +1,33 @@
+
+
+ //THEME COLORS
+$bg-dark-color-1:#000000e0;
+$bg-dark-color:#3a3a3adf;
+$dark-light-1: rgba(0, 0, 0, 0.2);
+$pink:#cf1767;
+// $dark-light:#7e7e7e;
+
+//WHITE AND GRAY COLORS
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+$primary: $bg-dark-color-1;
+$secondary: $bg-dark-color;
+$tertiary: $pink;
+
+$nav-link-color: $white;
+
+
+
+//IMPORT BOOTSTRAP
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss'

@@ -1,9 +1,9 @@
 import React from 'react'
-// import '../styles/navbar.css'
+//import '../styles/navbar.css'
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark _navbar">
       <a className="navbar-brand" href="#">
         IGWE ACHA
       </a>
@@ -11,28 +11,43 @@ export const Navbar = () => {
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
+        data-target="#navbarText"
+        aria-controls="navbarText"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="#">
-            Home <span className="sr-only"></span>
-          </a>
-          <a className="nav-item nav-link" href="#">
-            Projects
-          </a>
-          <a className="nav-item nav-link" href="#">
-            Social media
-          </a>
-          <a className="nav-item nav-link btn btn-primary text-white" href="#">
-            Contact me
-          </a>
-        </div>
+      <div className="collapse navbar-collapse " id="navbarText">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Skills
+            </a>
+          </li>
+        </ul>
+        <span className="navbar-text justify-content-end social-links ">
+          <ul>
+            <li>Github</li>
+            <li>Twitter</li>
+            <li>Linkedln</li>
+          </ul>
+        </span>
       </div>
     </nav>
   );
