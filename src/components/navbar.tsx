@@ -43,9 +43,15 @@ export const Navbar = () => {
         </ul>
         <span className="navbar-text justify-content-end social-links ">
           <ul>
-            <li>Github</li>
-            <li>Twitter</li>
-            <li>Linkedln</li>
+            <li>
+              <a href="#github">Github</a>
+            </li>
+            <li>
+              <a href="#twitter">Twitter</a>
+            </li>
+            <li>
+              <a href="#linkedl">Linkedln</a>
+            </li>
           </ul>
         </span>
       </div>

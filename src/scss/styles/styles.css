@@ -9701,18 +9701,24 @@ textarea.form-control-lg {
   background: rgba(0, 0, 0, 0.8784313725);
   background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(58, 58, 58, 0.96) 100%);
 }
-._navbar .social-links ul {
-  padding: 0;
-  margin: 0;
+._navbar li {
   list-style-type: none;
-  display: flex;
-}
-._navbar .social-links ul a {
-  padding: 0;
-  margin: 0;
 }
 @media (max-width: 1199.98px) {
   ._navbar ul {
     padding-left: 10px;
   }
+  ._navbar a {
+    padding: 0;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  ._navbar li {
+    margin-bottom: 5px;
+  }
+}
+._navbar .social-links ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
 }/*# sourceMappingURL=styles.css.map */
