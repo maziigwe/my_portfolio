@@ -1,11 +1,13 @@
 
 
- //THEME COLORS
+ //THEME COLORS (dark)
 $bg-dark-color-1:#000000e0;
 $bg-dark-color:#3a3a3adf;
-$dark-light-1: rgba(0, 0, 0, 0.2);
+$dark-light-1: #00000033;
 $pink:#cf1767;
 // $dark-light:#7e7e7e;
+ 
+ 
 
 //WHITE AND GRAY COLORS
 $white:    #fff;
@@ -26,7 +28,6 @@ $secondary: $bg-dark-color;
 $tertiary: $pink;
 
 $nav-link-color: $white;
-
 
 
 //IMPORT BOOTSTRAP

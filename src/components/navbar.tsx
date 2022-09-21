@@ -4,11 +4,11 @@ import React from 'react'
 export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark _navbar">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand mx-2" href="#">
         IGWE ACHA
       </a>
       <button
-        className="navbar-toggler"
+        className="navbar-toggler mx-2 _navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"
@@ -16,10 +16,10 @@ export const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon "></span>
       </button>
-      <div className="collapse navbar-collapse " id="navbarText">
-        <ul className="navbar-nav mr-auto">
+      <div className="collapse navbar-collapse _collapsable" id="navbarText">
+        <ul className="navbar-nav mr-auto main-list">
           <li className="nav-item active">
             <a className="nav-link" href="#">
               Home
@@ -44,13 +44,22 @@ export const Navbar = () => {
         <span className="navbar-text justify-content-end social-links ">
           <ul>
             <li>
-              <a href="#github">Github</a>
+              <a href="#github">
+                <i className="bi bi-github text-white"></i>
+                <span>Github</span>
+              </a>
             </li>
             <li>
-              <a href="#twitter">Twitter</a>
+              <a href="#twitter">
+                <i className="bi bi-twitter text-white"></i>
+                <span>Twitter</span>
+              </a>
             </li>
             <li>
-              <a href="#linkedl">Linkedln</a>
+              <a href="#linkedl">
+                <i className="bi bi-linkedin text-white "></i>
+                <span>Linkedln</span>
+              </a>
             </li>
           </ul>
         </span>

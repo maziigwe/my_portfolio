@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/js/bootstrap.min.js"
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./scss/styles/styles.css";
 
 
