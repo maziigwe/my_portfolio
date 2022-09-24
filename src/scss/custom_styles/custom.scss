@@ -1,9 +1,11 @@
+@import "./../components/mixins";
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
 
 
  //THEME COLORS (dark)
 $bg-dark-color-1:#000000e0;
 $bg-dark-color:#3a3a3adf;
-$dark-light-1: #00000033;
+$dark-light-1: rgba(0, 0, 0, 0.2);
 $pink:#cf1767;
 // $dark-light:#7e7e7e;
  
@@ -27,8 +29,47 @@ $primary: $bg-dark-color-1;
 $secondary: $bg-dark-color;
 $tertiary: $pink;
 
-$nav-link-color: $white;
+//$nav-link-color: rgb(246, 13, 13);
+
+ 
+.dark{
+   //background:$black
+    
+    @include gradient($primary, $secondary);
+    $nav-link-color: $gray-200;
+    $nav-link-hover-color:$gray-100;
+    
+    $headings-color: $gray-300; 
+    $link-color:$gray-300; 
 
 
-//IMPORT BOOTSTRAP
-@import '../../../node_modules/bootstrap/scss/bootstrap.scss'
+    //IMPORT BOOTSTRAP
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+}
+
+.light{
+   
+   @include gradient($gray-300, $gray-100);
+   $headings-color:$gray-900;
+   $link-color:$gray-900;
+    
+   $nav-link-color: $gray-900;
+   $nav-link-hover-color:$gray-700;
+
+//    //Toggler Icon
+//    $navbar-light-toggler-icon-bg: gold;
+//    $navbar-light-toggler-border-color:gold;
+   
+
+
+
+    //IMPORT BOOTSTRAP
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+}
+
+
+
+
+
+
+

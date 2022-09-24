@@ -3,12 +3,13 @@ import React from 'react'
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark _navbar">
-      <a className="navbar-brand mx-2" href="#">
-        IGWE ACHA
+    <nav className="navbar  navbar-expand-lg _navbar">
+      <a className="navbar-brand mx-2 " href="#">
+        <h3>IGWE ACHA</h3>
       </a>
+
       <button
-        className="navbar-toggler mx-2 _navbar-toggler"
+        className="d-flex d-lg-none mx-2 flex-column justify-content-around _navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"
@@ -16,10 +17,13 @@ export const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon "></span>
+        <span className="toggler-icon tob-bar "></span>
+        <span className="toggler-icon middle-bar "></span>
+        <span className="toggler-icon bottom-bar "></span>
       </button>
+
       <div className="collapse navbar-collapse _collapsable" id="navbarText">
-        <ul className="navbar-nav mr-auto main-list">
+        <ul className="navbar-nav mr-auto ">
           <li className="nav-item active">
             <a className="nav-link" href="#">
               Home
@@ -45,19 +49,19 @@ export const Navbar = () => {
           <ul>
             <li>
               <a href="#github">
-                <i className="bi bi-github text-white"></i>
+                <i className="bi bi-github "></i>
                 <span>Github</span>
               </a>
             </li>
             <li>
               <a href="#twitter">
-                <i className="bi bi-twitter text-white"></i>
+                <i className="bi bi-twitter "></i>
                 <span>Twitter</span>
               </a>
             </li>
             <li>
               <a href="#linkedl">
-                <i className="bi bi-linkedin text-white "></i>
+                <i className="bi bi-linkedin "></i>
                 <span>Linkedln</span>
               </a>
             </li>
