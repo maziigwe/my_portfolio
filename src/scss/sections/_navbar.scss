@@ -27,12 +27,9 @@
   }
   .bi-toggle-on {
     font-size: x-large;
+    transform: rotate(180deg);
   }
-  .bi-linkedin,
-  .bi-twitter,
-  .bi-github {
-    font-size: large;
-  }
+
   .bi-twitter {
     color: $blue-400;
   }
@@ -71,11 +68,13 @@
     }
     //Navbar toggler-icon
     ._navbar-toggler {
-      width: 40px;
+      width: 30px;
       height: 30px;
       position: relative;
-      transition: 450ms ease-in-out;
+      transition: 250ms ease-in-out;
       z-index: 1000;
+      border-radius: 5px;
+      padding: 5px;
     }
     ._navbar-toggler,
     ._navbar-toggler:focus,
@@ -86,6 +85,7 @@
       border: 0;
       background-color: transparent;
     }
+
     ._navbar-toggler span {
       margin: 0;
       padding: 0;
@@ -165,7 +165,10 @@
         backdrop-filter: blur(1rem);
       }
 
-      li > a > i {
+      .bi-linkedin,
+      .bi-twitter,
+      .bi-github {
+        font-size: large;
         width: 25px;
         display: inline-block;
       }

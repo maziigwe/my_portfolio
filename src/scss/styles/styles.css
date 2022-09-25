@@ -55515,11 +55515,7 @@ a > .light code {
 }
 ._navbar .bi-toggle-on {
   font-size: x-large;
-}
-._navbar .bi-linkedin,
-._navbar .bi-twitter,
-._navbar .bi-github {
-  font-size: large;
+  transform: rotate(180deg);
 }
 ._navbar .bi-twitter {
   color: #3d8bfd;
@@ -55554,11 +55550,13 @@ a > .light code {
     padding-left: 2px;
   }
   ._navbar ._navbar-toggler {
-    width: 40px;
+    width: 30px;
     height: 30px;
     position: relative;
-    transition: 450ms ease-in-out;
+    transition: 250ms ease-in-out;
     z-index: 1000;
+    border-radius: 5px;
+    padding: 5px;
   }
   ._navbar ._navbar-toggler,
 ._navbar ._navbar-toggler:focus,
@@ -55642,7 +55640,10 @@ a > .light code {
               backdrop-filter: blur(1rem);
     }
   }
-  ._navbar ._collapsable li > a > i {
+  ._navbar ._collapsable .bi-linkedin,
+._navbar ._collapsable .bi-twitter,
+._navbar ._collapsable .bi-github {
+    font-size: large;
     width: 25px;
     display: inline-block;
   }

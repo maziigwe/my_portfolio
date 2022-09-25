@@ -53,7 +53,7 @@ export const Navbar = () => {
                 <span>Github</span>
               </a>
             </li>
-            <li className="">
+            <li className="mx-1">
               <a href="#twitter">
                 <i className="bi bi-twitter mx-1"></i>
                 <span>Twitter</span>
