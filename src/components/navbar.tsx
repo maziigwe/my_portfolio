@@ -9,7 +9,7 @@ export const Navbar = () => {
       </a>
 
       <button
-        className="d-flex d-lg-none mx-2 flex-column justify-content-around _navbar-toggler"
+        className="d-flex d-lg-none collapsed mx-2 flex-column justify-content-around _navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"

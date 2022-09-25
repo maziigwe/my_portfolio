@@ -45,6 +45,65 @@
         padding-left: 2px;
       }
     }
+    //Navbar toggler-icon
+    ._navbar-toggler {
+      width: 40px;
+      height: 30px;
+      position: relative;
+      transition: 450ms ease-in-out;
+      z-index: 1000;
+    }
+    ._navbar-toggler,
+    ._navbar-toggler:focus,
+    ._navbar-toggler:active,
+    .toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+      border: 0;
+    }
+    ._navbar-toggler span {
+      margin: 0;
+      padding: 0;
+    }
+    .toggler-icon {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 100%;
+      border-radius: 1px;
+      left: 0;
+      transform: rotate(0deg);
+      transition: transform 250ms ease-in-out;
+    }
+    .middle-bar {
+      margin-top: 0px;
+    }
+    //When navigation is clicked
+    ._navbar-toggler .top-bar {
+      margin-top: 0px;
+      transform: rotate(135deg);
+    }
+    ._navbar-toggler .middle-bar {
+      opacity: 0;
+      filter: alpah(opacity=0);
+    }
+    ._navbar-toggler .bottom-bar {
+      margin-top: 0px;
+      transform: rotate(-135deg);
+    }
+    // When Navbar is collapsed
+    ._navbar-toggler.collapsed .top-bar {
+      margin-top: -20px;
+      transform: rotate(0deg);
+    }
+    ._navbar-toggler.collapsed .middle-bar {
+      opacity: 1;
+      filter: alpha(opacity=100);
+    }
+    ._navbar-toggler.collapsed .bottom-bar {
+      margin-top: 20px;
+      transform: rotate(0deg);
+    }
   }
 
   @media (max-width: 768px) {
@@ -80,38 +139,6 @@
         width: 25px;
         display: inline-block;
       }
-    }
-    ._navbar-toggler {
-      width: 50px;
-      height: 20px;
-      position: relative;
-      transition: 450ms ease-in-out;
-      z-index: 1000;
-    }
-    ._navbar-toggler,
-    ._navbar-toggler:focus,
-    ._navbar-toggler:active,
-    .toggler-icon:focus {
-      outline: none;
-      box-shadow: none;
-      border: 0;
-    }
-    ._navbar-toggler span {
-      margin: 0;
-      padding: 0;
-    }
-    .toggler-icon {
-      display: block;
-      position: absolute;
-      height: 5px;
-      width: 100%;
-      color: black;
-      background-color: black;
-      border-radius: 1px;
-      // opacity:1;
-      left: 0;
-      transform: rotate(0deg);
-      transition: 250ms ease-in-out;
     }
   }
   //padding: 10px 15px;

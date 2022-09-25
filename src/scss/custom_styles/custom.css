@@ -18734,6 +18734,25 @@ a > .dark code {
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 }
+@media (max-width: 768px) {
+  .light ._navbar ._collapsable {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  .light ._navbar li {
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+.light ._navbar .toggler-icon.collapsed {
+  background-color: #6c757d;
+}
+.light ._navbar .toggler-icon {
+  background-color: #dc3545;
+}
+@media (max-width: 1024px) {
+  .light ._navbar li {
+    border-bottom: 1px solid #ced4da;
+  }
+}
 .light :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
