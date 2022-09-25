@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 //import '../styles/navbar.css'
 
 export const Navbar = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
       </a>
 
       <button
-        className="d-flex d-lg-none collapsed mx-2 flex-column justify-content-around _navbar-toggler"
+        className="d-flex d-lg-none collapsed mx-3 flex-column justify-content-around _navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarText"
@@ -17,7 +17,7 @@ export const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="toggler-icon tob-bar "></span>
+        <span className="toggler-icon top-bar "></span>
         <span className="toggler-icon middle-bar "></span>
         <span className="toggler-icon bottom-bar "></span>
       </button>
@@ -70,4 +70,4 @@ export const Navbar = () => {
       </div>
     </nav>
   );
-}
+};

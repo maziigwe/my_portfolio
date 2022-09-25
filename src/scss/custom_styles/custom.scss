@@ -38,6 +38,28 @@ $tertiary: $pink;
   $headings-color: $gray-300;
   $link-color: $gray-300;
 
+  ._navbar {
+    @media (max-width: 768px) {
+      ._collapsable {
+        background: hsla(0, 0%, 0%, 0.85);
+      }
+
+      li {
+        border-bottom: 1px solid $gray-600;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      li {
+        border-bottom: 1px solid $gray-700;
+      }
+
+      ._navbar-toggler.collapsed .toggler-icon {
+        background-color: $gray-600;
+        border: 1px $gray-500;
+      }
+    }
+  }
   //IMPORT BOOTSTRAP
   @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 }
@@ -64,15 +86,13 @@ $tertiary: $pink;
       }
     }
 
-    .toggler-icon.collapsed {
-      background-color: $gray-600;
-    }
-    .toggler-icon {
-      background-color: $danger;
-    }
     @media (max-width: 1024px) {
       li {
         border-bottom: 1px solid $gray-400;
+      }
+
+      ._navbar-toggler.collapsed .toggler-icon {
+        background-color: $gray-700;
       }
     }
   }

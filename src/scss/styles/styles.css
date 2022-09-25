@@ -9728,6 +9728,23 @@ textarea.form-control-lg {
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 }
+@media (max-width: 768px) {
+  .dark ._navbar ._collapsable {
+    background: hsla(0deg, 0%, 0%, 0.85);
+  }
+  .dark ._navbar li {
+    border-bottom: 1px solid #6c757d;
+  }
+}
+@media (max-width: 1024px) {
+  .dark ._navbar li {
+    border-bottom: 1px solid #495057;
+  }
+  .dark ._navbar ._navbar-toggler.collapsed .toggler-icon {
+    background-color: #6c757d;
+    border: 1px #adb5bd;
+  }
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -18742,15 +18759,12 @@ a > .dark code {
     border-bottom: 1px solid #dee2e6;
   }
 }
-.light ._navbar .toggler-icon.collapsed {
-  background-color: #6c757d;
-}
-.light ._navbar .toggler-icon {
-  background-color: #dc3545;
-}
 @media (max-width: 1024px) {
   .light ._navbar li {
     border-bottom: 1px solid #ced4da;
+  }
+  .light ._navbar ._navbar-toggler.collapsed .toggler-icon {
+    background-color: #495057;
   }
 }
 .light :root {
@@ -37451,6 +37465,23 @@ textarea.form-control-lg {
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 }
+@media (max-width: 768px) {
+  .dark ._navbar ._collapsable {
+    background: hsla(0deg, 0%, 0%, 0.85);
+  }
+  .dark ._navbar li {
+    border-bottom: 1px solid #6c757d;
+  }
+}
+@media (max-width: 1024px) {
+  .dark ._navbar li {
+    border-bottom: 1px solid #495057;
+  }
+  .dark ._navbar ._navbar-toggler.collapsed .toggler-icon {
+    background-color: #6c757d;
+    border: 1px #adb5bd;
+  }
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -46465,15 +46496,12 @@ a > .dark code {
     border-bottom: 1px solid #dee2e6;
   }
 }
-.light ._navbar .toggler-icon.collapsed {
-  background-color: #6c757d;
-}
-.light ._navbar .toggler-icon {
-  background-color: #dc3545;
-}
 @media (max-width: 1024px) {
   .light ._navbar li {
     border-bottom: 1px solid #ced4da;
+  }
+  .light ._navbar ._navbar-toggler.collapsed .toggler-icon {
+    background-color: #495057;
   }
 }
 .light :root {
@@ -55515,6 +55543,7 @@ a > .light code {
     outline: none;
     box-shadow: none;
     border: 0;
+    background-color: transparent;
   }
   ._navbar ._navbar-toggler span {
     margin: 0;
@@ -55523,12 +55552,13 @@ a > .light code {
   ._navbar .toggler-icon {
     display: block;
     position: absolute;
-    height: 4px;
+    height: 3px;
     width: 100%;
     border-radius: 1px;
     left: 0;
     transform: rotate(0deg);
-    transition: transform 250ms ease-in-out;
+    transition: 250ms ease-in-out;
+    background-color: #dc3545;
   }
   ._navbar .middle-bar {
     margin-top: 0px;
@@ -55539,7 +55569,7 @@ a > .light code {
   }
   ._navbar ._navbar-toggler .middle-bar {
     opacity: 0;
-    filter: alpah(opacity=0);
+    filter: alpha(opacity=0);
   }
   ._navbar ._navbar-toggler .bottom-bar {
     margin-top: 0px;
