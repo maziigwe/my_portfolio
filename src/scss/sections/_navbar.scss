@@ -21,9 +21,29 @@
       text-decoration: none;
       margin-right: 5px;
     }
+    a span {
+      display: none;
+    }
+  }
+  .bi-toggle-on {
+    font-size: x-large;
+  }
+  .bi-linkedin,
+  .bi-twitter,
+  .bi-github {
+    font-size: large;
+  }
+  .bi-twitter {
+    color: $blue-400;
+  }
+  .bi-linkedin {
+    color: $blue-600;
+  }
+  .bi-github {
+    color: $gray-800;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     a {
       padding: 0;
       text-decoration: none;
@@ -39,6 +59,10 @@
         padding: 0;
         margin: 0;
         display: flex;
+        a span {
+          display: inline-block;
+          margin-right: 10px;
+        }
       }
       li {
         border: 0;
@@ -109,6 +133,10 @@
   }
 
   @media (max-width: 768px) {
+    .switch-toggle {
+      margin-top: 25px;
+      margin-left: 5px;
+    }
     .social-links {
       li {
         list-style-type: none;

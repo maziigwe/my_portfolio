@@ -3,8 +3,8 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar  navbar-expand-lg _navbar">
-      <a className="navbar-brand mx-2 " href="#">
+    <nav className="navbar container-xl navbar-expand-lg _navbar">
+      <a className="navbar-brand mx-4 " href="#">
         <h3>IGWE ACHA</h3>
       </a>
 
@@ -45,25 +45,29 @@ export const Navbar = () => {
             </a>
           </li>
         </ul>
-        <span className="navbar-text justify-content-end social-links ">
-          <ul>
-            <li>
+        <span className="navbar-text justify-content-end social-links myt-4">
+          <ul className="my-2">
+            <li className="mx-1">
               <a href="#github">
-                <i className="bi bi-github "></i>
+                <i className="bi bi-github mx-1"></i>
                 <span>Github</span>
               </a>
             </li>
-            <li>
+            <li className="">
               <a href="#twitter">
-                <i className="bi bi-twitter "></i>
+                <i className="bi bi-twitter mx-1"></i>
                 <span>Twitter</span>
               </a>
             </li>
-            <li>
+            <li className="mx-1">
               <a href="#linkedl">
-                <i className="bi bi-linkedin "></i>
+                <i className="bi bi-linkedin mx-1"></i>
                 <span>Linkedln</span>
               </a>
+            </li>
+            <li className="mx-lg-5 d-flex align-items-center switch-toggle">
+              <i className="bi bi-toggle-on"></i>
+              <span className="mx-1">Dark Theme</span>
             </li>
           </ul>
         </span>

@@ -55510,7 +55510,27 @@ a > .light code {
   text-decoration: none;
   margin-right: 5px;
 }
-@media (max-width: 1024px) {
+._navbar .social-links a span {
+  display: none;
+}
+._navbar .bi-toggle-on {
+  font-size: x-large;
+}
+._navbar .bi-linkedin,
+._navbar .bi-twitter,
+._navbar .bi-github {
+  font-size: large;
+}
+._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+._navbar .bi-github {
+  color: #343a40;
+}
+@media (max-width: 1023px) {
   ._navbar a {
     padding: 0;
     text-decoration: none;
@@ -55524,6 +55544,10 @@ a > .light code {
     padding: 0;
     margin: 0;
     display: flex;
+  }
+  ._navbar .social-links ul a span {
+    display: inline-block;
+    margin-right: 10px;
   }
   ._navbar .social-links li {
     border: 0;
@@ -55589,6 +55613,10 @@ a > .light code {
   }
 }
 @media (max-width: 768px) {
+  ._navbar .switch-toggle {
+    margin-top: 25px;
+    margin-left: 5px;
+  }
   ._navbar .social-links li {
     list-style-type: none;
     border-bottom: 0;
