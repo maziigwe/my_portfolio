@@ -9745,6 +9745,18 @@ textarea.form-control-lg {
     border: 1px #adb5bd;
   }
 }
+.dark ._navbar .switch-toggle {
+  color: #fff;
+}
+.dark ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.dark ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.dark ._navbar .bi-github {
+  color: #f8f9fa;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -18766,6 +18778,15 @@ a > .dark code {
   .light ._navbar ._navbar-toggler.collapsed .toggler-icon {
     background-color: #495057;
   }
+}
+.light ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.light ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.light ._navbar .bi-github {
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;

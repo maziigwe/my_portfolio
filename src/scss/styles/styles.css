@@ -9745,6 +9745,18 @@ textarea.form-control-lg {
     border: 1px #adb5bd;
   }
 }
+.dark ._navbar .switch-toggle {
+  color: #fff;
+}
+.dark ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.dark ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.dark ._navbar .bi-github {
+  color: #f8f9fa;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -18766,6 +18778,15 @@ a > .dark code {
   .light ._navbar ._navbar-toggler.collapsed .toggler-icon {
     background-color: #495057;
   }
+}
+.light ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.light ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.light ._navbar .bi-github {
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -37482,6 +37503,18 @@ textarea.form-control-lg {
     border: 1px #adb5bd;
   }
 }
+.dark ._navbar .switch-toggle {
+  color: #fff;
+}
+.dark ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.dark ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.dark ._navbar .bi-github {
+  color: #f8f9fa;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -46504,6 +46537,15 @@ a > .dark code {
     background-color: #495057;
   }
 }
+.light ._navbar .bi-twitter {
+  color: #3d8bfd;
+}
+.light ._navbar .bi-linkedin {
+  color: #0a58ca;
+}
+.light ._navbar .bi-github {
+  color: #343a40;
+}
 .light :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -55517,15 +55559,6 @@ a > .light code {
   font-size: x-large;
   transform: rotate(180deg);
 }
-._navbar .bi-twitter {
-  color: #3d8bfd;
-}
-._navbar .bi-linkedin {
-  color: #0a58ca;
-}
-._navbar .bi-github {
-  color: #343a40;
-}
 @media (max-width: 1023px) {
   ._navbar a {
     padding: 0;
@@ -55609,11 +55642,23 @@ a > .light code {
     margin-top: 20px;
     transform: rotate(0deg);
   }
+  ._navbar .social-links > ul {
+    position: relative;
+  }
+  ._navbar .switch-toggle {
+    position: absolute;
+    right: 5cqw;
+  }
 }
 @media (max-width: 768px) {
+  ._navbar .social-links > ul {
+    height: 100cqh;
+  }
   ._navbar .switch-toggle {
     margin-top: 25px;
     margin-left: 5px;
+    position: absolute;
+    inset: 0 0 5px 5px;
   }
   ._navbar .social-links li {
     list-style-type: none;

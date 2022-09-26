@@ -59,6 +59,18 @@ $tertiary: $pink;
         border: 1px $gray-500;
       }
     }
+    .switch-toggle {
+      color: $white;
+    }
+    .bi-twitter {
+      color: $blue-400;
+    }
+    .bi-linkedin {
+      color: $blue-600;
+    }
+    .bi-github {
+      color: $gray-100;
+    }
   }
   //IMPORT BOOTSTRAP
   @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
@@ -94,6 +106,16 @@ $tertiary: $pink;
       ._navbar-toggler.collapsed .toggler-icon {
         background-color: $gray-700;
       }
+    }
+
+    .bi-twitter {
+      color: $blue-400;
+    }
+    .bi-linkedin {
+      color: $blue-600;
+    }
+    .bi-github {
+      color: $gray-800;
     }
   }
 
