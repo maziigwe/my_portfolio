@@ -55658,7 +55658,7 @@ a > .light code {
 }
 @media (max-width: 768px) {
   ._navbar .social-links > ul {
-    height: 100vh;
+    height: 80vh;
   }
   ._navbar .switch-toggle {
     margin-top: 25px;
