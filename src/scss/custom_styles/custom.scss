@@ -71,6 +71,10 @@ $tertiary: $pink;
     .bi-github {
       color: $gray-100;
     }
+
+    .social-links a:hover {
+      color: $gray-600;
+    }
   }
   //IMPORT BOOTSTRAP
   @import "../../../node_modules/bootstrap/scss/bootstrap.scss";

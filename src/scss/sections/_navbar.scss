@@ -126,13 +126,13 @@
     }
     .switch-toggle {
       position: absolute;
-      right: 5cqw;
+      right: 2px;
     }
   }
 
   @media (max-width: 768px) {
     .social-links > ul {
-      height: 100cqh;
+      height: 100vh;
     }
     .switch-toggle {
       margin-top: 25px;

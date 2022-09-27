@@ -9757,6 +9757,9 @@ textarea.form-control-lg {
 .dark ._navbar .bi-github {
   color: #f8f9fa;
 }
+.dark ._navbar .social-links a:hover {
+  color: #6c757d;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
