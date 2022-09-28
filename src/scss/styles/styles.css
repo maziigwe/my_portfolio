@@ -9757,6 +9757,10 @@ textarea.form-control-lg {
 .dark ._navbar .bi-github {
   color: #f8f9fa;
 }
+.dark ._navbar .bi-whatsapp {
+  color: #0f5132;
+  font-weight: bold;
+}
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
 }
@@ -18790,6 +18794,9 @@ a > .dark code {
 }
 .light ._navbar .bi-github {
   color: #343a40;
+}
+.light ._navbar .bi-whatsapp {
+  color: #198754;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -37518,6 +37525,10 @@ textarea.form-control-lg {
 .dark ._navbar .bi-github {
   color: #f8f9fa;
 }
+.dark ._navbar .bi-whatsapp {
+  color: #0f5132;
+  font-weight: bold;
+}
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
 }
@@ -46552,6 +46563,9 @@ a > .dark code {
 .light ._navbar .bi-github {
   color: #343a40;
 }
+.light ._navbar .bi-whatsapp {
+  color: #198754;
+}
 .light :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -55566,23 +55580,19 @@ a > .light code {
   transform: rotate(180deg);
 }
 @media (max-width: 1023px) {
+  ._navbar ul {
+    padding-left: 0;
+  }
   ._navbar a {
     padding: 0;
     text-decoration: none;
-    margin-right: 5px;
   }
   ._navbar li {
     border-bottom: 1px solid rgba(58, 58, 58, 0.8745098039);
     padding-left: 10px;
   }
-  ._navbar .social-links ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  ._navbar .social-links ul a span {
-    display: inline-block;
-    margin-right: 10px;
+  ._navbar .social-links a span {
+    display: inline;
   }
   ._navbar .social-links li {
     border: 0;
@@ -55648,31 +55658,23 @@ a > .light code {
     margin-top: 20px;
     transform: rotate(0deg);
   }
-  ._navbar .social-links > ul {
-    position: relative;
-  }
   ._navbar .switch-toggle {
     position: absolute;
-    right: 2px;
+    right: 5px;
+    bottom: 15px;
   }
 }
 @media (max-width: 768px) {
-  ._navbar .social-links > ul {
-    height: 80vh;
+  ._navbar ul {
+    padding-left: 10px;
   }
-  ._navbar .switch-toggle {
-    margin-top: 25px;
-    margin-left: 5px;
-    position: absolute;
-    inset: 0 0 5px 5px;
+  ._navbar .social-links {
+    flex-direction: column;
   }
   ._navbar .social-links li {
     list-style-type: none;
     border-bottom: 0;
-  }
-  ._navbar .social-links ul {
-    display: block;
-    margin: 2rem 5px;
+    margin-bottom: 5px;
   }
   ._navbar .social-links a {
     padding: 0;
@@ -55693,9 +55695,13 @@ a > .light code {
   }
   ._navbar ._collapsable .bi-linkedin,
 ._navbar ._collapsable .bi-twitter,
-._navbar ._collapsable .bi-github {
+._navbar ._collapsable .bi-github,
+._navbar ._collapsable .bi-whatsapp {
     font-size: large;
     width: 25px;
     display: inline-block;
+  }
+  ._navbar .switch-toggle {
+    left: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */

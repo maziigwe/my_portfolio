@@ -71,6 +71,10 @@ $tertiary: $pink;
     .bi-github {
       color: $gray-100;
     }
+    .bi-whatsapp {
+      color: $green-700;
+      font-weight: bold;
+    }
 
     .social-links a:hover {
       color: $gray-600;
@@ -120,6 +124,9 @@ $tertiary: $pink;
     }
     .bi-github {
       color: $gray-800;
+    }
+    .bi-whatsapp {
+      color: $green-500;
     }
   }
 

@@ -9757,6 +9757,10 @@ textarea.form-control-lg {
 .dark ._navbar .bi-github {
   color: #f8f9fa;
 }
+.dark ._navbar .bi-whatsapp {
+  color: #0f5132;
+  font-weight: bold;
+}
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
 }
@@ -18790,6 +18794,9 @@ a > .dark code {
 }
 .light ._navbar .bi-github {
   color: #343a40;
+}
+.light ._navbar .bi-whatsapp {
+  color: #198754;
 }
 .light :root {
   --bs-blue: #0d6efd;

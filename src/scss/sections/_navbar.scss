@@ -31,10 +31,13 @@
   }
 
   @media (max-width: 1023px) {
+    ul {
+      padding-left: 0;
+    }
     a {
       padding: 0;
       text-decoration: none;
-      margin-right: 5px;
+      // margin-right: 5px;
     }
     li {
       border-bottom: 1px solid $secondary;
@@ -42,15 +45,11 @@
     }
 
     .social-links {
-      ul {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        a span {
-          display: inline-block;
-          margin-right: 10px;
-        }
+      a span {
+        display: inline;
+        // margin-right: 10px;
       }
+
       li {
         border: 0;
         padding-left: 2px;
@@ -121,34 +120,25 @@
       transform: rotate(0deg);
     }
 
-    .social-links > ul {
-      position: relative;
-    }
     .switch-toggle {
       position: absolute;
-      right: 2px;
+      right: 5px;
+      bottom: 15px;
     }
   }
 
   @media (max-width: 768px) {
-    .social-links > ul {
-      height: 80vh;
-    }
-    .switch-toggle {
-      margin-top: 25px;
-      margin-left: 5px;
-      position: absolute;
-      inset: 0 0 5px 5px;
+    ul {
+      padding-left: 10px;
     }
     .social-links {
+      flex-direction: column;
       li {
         list-style-type: none;
         border-bottom: 0;
+        margin-bottom: 5px;
       }
-      ul {
-        display: block;
-        margin: 2rem 5px;
-      }
+
       a {
         padding: 0;
         text-decoration: none;
@@ -170,12 +160,18 @@
 
       .bi-linkedin,
       .bi-twitter,
-      .bi-github {
+      .bi-github,
+      .bi-whatsapp {
         font-size: large;
         width: 25px;
         display: inline-block;
       }
     }
+
+    .switch-toggle {
+      left: 10px;
+    }
   }
+
   //padding: 10px 15px;
 }

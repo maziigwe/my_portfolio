@@ -45,32 +45,38 @@ export const Navbar = () => {
             </a>
           </li>
         </ul>
-        <span className="navbar-text justify-content-end social-links myt-4">
-          <ul className="my-2">
-            <li className="mx-1">
-              <a href="#github">
-                <i className="bi bi-github mx-1"></i>
-                <span>Github</span>
-              </a>
-            </li>
-            <li className="mx-1">
-              <a href="#twitter">
-                <i className="bi bi-twitter mx-1"></i>
-                <span>Twitter</span>
-              </a>
-            </li>
-            <li className="mx-1">
-              <a href="#linkedl">
-                <i className="bi bi-linkedin mx-1"></i>
-                <span>Linkedln</span>
-              </a>
-            </li>
-            <li className="mx-lg-5 d-flex align-items-center switch-toggle">
-              <i className="bi bi-toggle-on"></i>
-              <span className="mx-1">Dark Theme</span>
-            </li>
-          </ul>
-        </span>
+
+        <ul className="navbar-text d-flex justify-content-start my-2 social-links">
+          <li className="mx-1">
+            <a href="#github">
+              <i className="bi bi-github mx-1"></i>
+              <span>Github</span>
+            </a>
+          </li>
+          <li className="mx-1">
+            <a href="#twitter">
+              <i className="bi bi-twitter mx-1"></i>
+              <span>Twitter</span>
+            </a>
+          </li>
+          <li className="mx-1">
+            <a href="#linkedl">
+              <i className="bi bi-linkedin mx-1"></i>
+              <span>Linkedln</span>
+            </a>
+          </li>
+          <li className="mx-1">
+            <a href="#whatsapp">
+              <i className="bi bi-whatsapp mx-1"></i>
+              <span>WhatsApp</span>
+            </a>
+          </li>
+        </ul>
+
+        <div className="mx-lg-5 d-flex align-items-center switch-toggle">
+          <i className="bi bi-toggle-on"></i>
+          <span className="mx-1">Dark Theme</span>
+        </div>
       </div>
     </nav>
   );
