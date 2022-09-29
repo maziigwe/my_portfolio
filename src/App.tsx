@@ -3,7 +3,7 @@ import { Navbar } from "./components/navbar";
 
 function App() {
   return (
-    <div className="light ">
+    <div className="dark ">
       <Navbar />
     </div>
   );

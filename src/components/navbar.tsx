@@ -3,7 +3,8 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar container-xl navbar-expand-lg _navbar">
+    // <div className="container shadow-sm ">
+    <nav className="navbar navbar-expand-lg _navbar ">
       <a className="navbar-brand mx-4 " href="#">
         <h3>IGWE ACHA</h3>
       </a>
@@ -79,5 +80,6 @@ export const Navbar = () => {
         </div>
       </div>
     </nav>
+    // </div>
   );
 };
