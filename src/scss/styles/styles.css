@@ -83343,6 +83343,12 @@ a > .light code {
   }
 }
 
+.navbar-brand {
+  font-family: "Dawning of a New Day", cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
 ._navbar .main-list li {
   padding-left: 10px;
 }
