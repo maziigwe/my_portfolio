@@ -1,11 +1,13 @@
 import "./App.css";
+import { IntroSection } from "./components/introSection";
 import { Navbar } from "./components/navbar";
 
 function App() {
   return (
-    <div className="dark ">
+    <main className="dark ">
       <Navbar />
-    </div>
+      <IntroSection />
+    </main>
   );
 }
 

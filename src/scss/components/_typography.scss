@@ -1,0 +1,20 @@
+@import "./../custom_styles/custom";
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  &--description {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    text-transform: none;
+  }
+}
