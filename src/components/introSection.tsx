@@ -1,34 +1,42 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import Typewriter from "typewriter-effect";
 import developer_photo from "./../images/developer_photo.png";
 
 export const IntroSection = () => {
-  // const [tagLines, setTaglines] = useState([
-  //   "Hello, I'm Mazi Igwe!",
-  //   "I'm a frontend developer...",
-  // ]);
-  const [text, setText] = useState("");
-  const [typing, setTyping] = useState("Hello, I'm Mazi Igwe!");
-  const [letter, setLetter] = useState(0);
-
-  useEffect(() => {
-    if (letter <= typing.length) {
-      setTimeout(() => {
-        setText(text + typing[letter]);
-        setLetter(letter + 1);
-      }, 400);
-    } else {
-      setLetter(0);
-      setText("");
-    }
-  }, [letter]);
-
   return (
     <section id="home" className="intro-section ">
       <div className="container">
         <div className="row">
           <div className="col-md-6 intros">
             <h1 className="display-2">
-              <span className="display-2--intro">{text}</span>
+              <span className="display-2--intro">
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .typeString("Hello!, ")
+                      .pauseFor(2500)
+                      .typeString("I'm Igwe Acha.")
+                      .pauseFor(4000)
+                      .deleteChars(10)
+                      .typeString("a Frontend developer.")
+                      .pauseFor(2500)
+                      .changeDeleteSpeed(1500)
+                      .deleteAll()
+                      .typeString(
+                        "I build, Scalable, Reusable and Maintainable UI components..."
+                      )
+                      .pauseFor(5500)
+                      .changeDeleteSpeed(2500)
+                      .deleteAll()
+
+                      .start();
+                  }}
+                  options={{
+                    loop: true,
+                    autoStart: true,
+                  }}
+                />
+              </span>
               <span className="display-2--description lh-base">
                 A professional software developer. Experinced in frontend web
                 developement.

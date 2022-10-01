@@ -83474,6 +83474,7 @@ a > .light code {
     margin-right: 5px;
   }
   ._navbar ._collapsable {
+    z-index: 99;
     position: fixed;
     inset: 0 0 0 30%;
     padding: min(30vh, 10rem) 0;

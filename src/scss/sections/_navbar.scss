@@ -154,6 +154,7 @@
       }
     }
     ._collapsable {
+      z-index: 99;
       position: fixed;
       inset: 0 0 0 30%;
       padding: min(30vh, 10rem) 0;
