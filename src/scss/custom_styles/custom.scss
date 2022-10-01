@@ -1,11 +1,10 @@
 @import "./../components/mixins";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
-//THEME COLORS (dark)
-$bg-dark-color-1: #000000e0;
-$bg-dark-color: #3a3a3adf;
+$bg-dark-color-1: $gray-800;
+$bg-dark-color: $gray-700;
 $dark-light-1: rgba(0, 0, 0, 0.2);
-$pink: #cf1767;
+$dark-tertiary: $blue-300;
 
 // $dark-light:#7e7e7e;
 
@@ -20,18 +19,26 @@ $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
+$gray-950: #151313;
 $black: #000;
 
-$primary: $bg-dark-color-1;
-$secondary: $bg-dark-color;
-$tertiary: $pink;
+//THEME COLORS (dark)
+$primary-dark: $gray-950;
+$secondary-dark: $gray-700;
+$tertiary-dark: $blue-300;
+
+//THEME COLORS (light)
+$primary: #d3e3fc;
+$secondary: $gray-100;
+$tertiary: $blue-500;
+$light-green-color: #00887a;
 
 //$nav-link-color: rgb(246, 13, 13);
 
 .dark {
   //background:$black
 
-  @include gradient($primary, $secondary);
+  @include gradient($primary-dark, $secondary-dark);
   $nav-link-color: $gray-200;
   $nav-link-hover-color: $gray-100;
 
@@ -85,11 +92,11 @@ $tertiary: $pink;
 }
 
 .light {
-  @include gradient($gray-300, $gray-100);
-  $headings-color: $gray-900;
-  $link-color: $gray-900;
+  @include gradient($primary, $secondary);
+  $headings-color: $gray-800;
+  $link-color: $gray-800;
 
-  $nav-link-color: $gray-900;
+  $nav-link-color: $gray-800;
   $nav-link-hover-color: $gray-700;
 
   //    //Toggler Icon

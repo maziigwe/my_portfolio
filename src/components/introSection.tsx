@@ -6,27 +6,31 @@ export const IntroSection = () => {
   return (
     <section id="home" className="intro-section ">
       <div className="container">
-        <div className="row">
-          <div className="col-md-6 intros">
+        <div className="row align-items-center">
+          <div className="col-md-6 intros text-start">
             <h1 className="display-2">
-              <span className="display-2--intro">
+              <span className="display-2--intro ">
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
                       .typeString("Hello!, ")
-                      .pauseFor(2500)
-                      .typeString("I'm Igwe Acha.")
-                      .pauseFor(4000)
+                      .pauseFor(2000)
+                      .typeString(
+                        "I'm <span style='color:#00887a'>Igwe Acha.</span>"
+                      )
+                      .pauseFor(6000)
                       .deleteChars(10)
-                      .typeString("a Frontend developer.")
-                      .pauseFor(2500)
-                      .changeDeleteSpeed(1500)
+                      .typeString(
+                        "a <span  style='color:#00887a'>Frontend developer.</span> "
+                      )
+                      .pauseFor(6500)
+                      .changeDeleteSpeed(3500)
                       .deleteAll()
                       .typeString(
-                        "I build, Scalable, Reusable and Maintainable UI components..."
+                        "I build, <span style='color:#00887a'>Scalable</span>, <span style='color:#00887a'>Reusable</span> and <span style='color:#00887a'>Maintainable</span> UI components..."
                       )
-                      .pauseFor(5500)
-                      .changeDeleteSpeed(2500)
+                      .pauseFor(9500)
+                      .changeDeleteSpeed(4500)
                       .deleteAll()
 
                       .start();
@@ -37,15 +41,15 @@ export const IntroSection = () => {
                   }}
                 />
               </span>
-              <span className="display-2--description lh-base">
+              <span className="display-2--description lh-base ">
                 A professional software developer. Experinced in frontend web
                 developement.
               </span>
             </h1>
-            <button className="rounded-pill btn-rounded">
+            <button className="btn btn-success rounded-pill btn-rounded ">
               Get in Touch
-              <span>
-                <i></i>
+              <span className="mx-1">
+                <i className="bi bi-arrow-right-circle"></i>
               </span>
             </button>
           </div>

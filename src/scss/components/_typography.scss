@@ -18,3 +18,10 @@
     text-transform: none;
   }
 }
+
+.intro-section {
+  .btn-rounded {
+    background-color: $light-green-color;
+    color: $primary;
+  }
+}

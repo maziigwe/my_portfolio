@@ -9719,8 +9719,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: rgba(0, 0, 0, 0.8784313725);
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(58, 58, 58, 0.96) 100%);
+  background: #000;
+  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -18761,8 +18761,8 @@ a > .dark code {
 }
 
 .light {
-  background: #dee2e6;
-  background: linear-gradient(35deg, rgba(222, 226, 230, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
+  background: #d3e3fc;
+  background: linear-gradient(35deg, rgba(211, 227, 252, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -18863,7 +18863,7 @@ a > .dark code {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #212529;
+  color: #343a40;
 }
 .light h1, .light .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -18972,7 +18972,7 @@ a > .dark code {
   top: -0.5em;
 }
 .light a {
-  color: #212529;
+  color: #343a40;
   text-decoration: underline;
 }
 .light a:hover {
@@ -22150,7 +22150,7 @@ a > .light code {
 .light .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #343a40;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -23880,7 +23880,7 @@ a > .light code {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #212529;
+  color: #343a40;
   background-color: #f0f0f0;
   border-bottom: 1px solid #d8d8d8;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -37487,8 +37487,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: rgba(0, 0, 0, 0.8784313725);
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(58, 58, 58, 0.96) 100%);
+  background: #000;
+  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -46529,8 +46529,8 @@ a > .dark code {
 }
 
 .light {
-  background: #dee2e6;
-  background: linear-gradient(35deg, rgba(222, 226, 230, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
+  background: #d3e3fc;
+  background: linear-gradient(35deg, rgba(211, 227, 252, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -46631,7 +46631,7 @@ a > .dark code {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #212529;
+  color: #343a40;
 }
 .light h1, .light .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -46740,7 +46740,7 @@ a > .dark code {
   top: -0.5em;
 }
 .light a {
-  color: #212529;
+  color: #343a40;
   text-decoration: underline;
 }
 .light a:hover {
@@ -49918,7 +49918,7 @@ a > .light code {
 .light .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #343a40;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -51648,7 +51648,7 @@ a > .light code {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #212529;
+  color: #343a40;
   background-color: #f0f0f0;
   border-bottom: 1px solid #d8d8d8;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -55575,6 +55575,11 @@ a > .light code {
   text-transform: none;
 }
 
+.intro-section .btn-rounded {
+  background-color: #00887a;
+  color: #d3e3fc;
+}
+
 /*!
  * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -65273,8 +65278,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: rgba(0, 0, 0, 0.8784313725);
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(58, 58, 58, 0.96) 100%);
+  background: #000;
+  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -74315,8 +74320,8 @@ a > .dark code {
 }
 
 .light {
-  background: #dee2e6;
-  background: linear-gradient(35deg, rgba(222, 226, 230, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
+  background: #d3e3fc;
+  background: linear-gradient(35deg, rgba(211, 227, 252, 0.95) 55%, rgba(248, 249, 250, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -74417,7 +74422,7 @@ a > .dark code {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #212529;
+  color: #343a40;
 }
 .light h1, .light .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -74526,7 +74531,7 @@ a > .dark code {
   top: -0.5em;
 }
 .light a {
-  color: #212529;
+  color: #343a40;
   text-decoration: underline;
 }
 .light a:hover {
@@ -77704,7 +77709,7 @@ a > .light code {
 .light .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #343a40;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -79434,7 +79439,7 @@ a > .light code {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 1rem;
-  color: #212529;
+  color: #343a40;
   background-color: #f0f0f0;
   border-bottom: 1px solid #d8d8d8;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -83380,7 +83385,7 @@ a > .light code {
     text-decoration: none;
   }
   ._navbar li {
-    border-bottom: 1px solid rgba(58, 58, 58, 0.8745098039);
+    border-bottom: 1px solid #f8f9fa;
     padding-left: 10px;
   }
   ._navbar .social-links a span {
