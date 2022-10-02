@@ -60,10 +60,21 @@ export const IntroSection = () => {
                 src={developer_photo}
                 alt="a developer image"
               />
+              <a href="#">
+                <span className="border-animation"></span>
+              </a>
             </div>
           </div>
         </div>
       </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,288L120,245.3C240,203,480,117,720,69.3C960,21,1200,11,1320,5.3L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
     </section>
   );
 };
