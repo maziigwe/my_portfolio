@@ -9719,8 +9719,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: #000;
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
+  background: #0c0c0c;
+  background: linear-gradient(35deg, rgba(12, 12, 12, 0.95) 55%, rgba(73, 80, 87, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -37487,8 +37487,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: #000;
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
+  background: #0c0c0c;
+  background: linear-gradient(35deg, rgba(12, 12, 12, 0.95) 55%, rgba(73, 80, 87, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -55557,9 +55557,13 @@ a > .light code {
   }
 }
 
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+}
+
 .display-2 {
   margin-bottom: 1rem;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
 .display-2--intro {
@@ -65278,8 +65282,8 @@ textarea.form-control-lg {
   }
 }
 .dark {
-  background: #000;
-  background: linear-gradient(35deg, rgba(0, 0, 0, 0.95) 55%, rgba(33, 37, 41, 0.96) 100%);
+  background: #0c0c0c;
+  background: linear-gradient(35deg, rgba(12, 12, 12, 0.95) 55%, rgba(73, 80, 87, 0.96) 100%);
   /*!
    * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
    * Copyright 2011-2020 The Bootstrap Authors
@@ -83348,12 +83352,6 @@ a > .light code {
   }
 }
 
-.navbar-brand {
-  font-family: "Dawning of a New Day", cursive;
-  font-weight: 700;
-  font-size: 3rem;
-}
-
 ._navbar .main-list li {
   padding-left: 10px;
 }
@@ -83505,7 +83503,21 @@ a > .light code {
 }
 
 .intro-section {
-  padding: 10rem 0 0 0;
+  padding: 5rem 0 0 0;
   width: 100%;
   height: 100%;
+}
+.intro-section .bi-arrow-right-circle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.intro-section .btn-rounded {
+  font-size: 1.185rem;
+}
+
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a span i {
+  font-size: 5em;
 }/*# sourceMappingURL=styles.css.map */
