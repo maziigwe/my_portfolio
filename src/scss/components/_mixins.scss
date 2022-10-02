@@ -1,11 +1,17 @@
- 
-
 //Gradient mixin
 @mixin gradient($start, $end) {
-   background: $start;
-   background: linear-gradient(35deg, rgba($start, 0.95) 55%, rgba($end,0.96) 100%);
+  background: $start;
+  background: linear-gradient(
+    35deg,
+    rgba($start, 0.95) 55%,
+    rgba($end, 0.96) 100%
+  );
 }
 
-@mixin button {
-   
+//Absolute center
+@mixin absoluteCenter {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: rotate(190deg);
 }
