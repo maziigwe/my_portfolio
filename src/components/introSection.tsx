@@ -27,7 +27,7 @@ export const IntroSection = () => {
                       .changeDeleteSpeed(3500)
                       .deleteAll()
                       .typeString(
-                        "I build, <span style='color:#00887a'>Scalable</span>, <span style='color:#00887a'>Reusable</span> and <span style='color:#00887a'>Maintainable</span> UI components..."
+                        "I build, <span style='color:#00887a;font-family: Gloria Hallelujah, cursive;'>Scalable</span>, <span style='color:#00887a;font-family: Gloria Hallelujah, cursive;'>Reusable</span> and <span style='color:#00887a;font-family: Gloria Hallelujah, cursive;'>Maintainable</span> UI components..."
                       )
                       .pauseFor(9500)
                       .changeDeleteSpeed(4500)
