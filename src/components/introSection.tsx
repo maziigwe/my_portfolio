@@ -46,10 +46,10 @@ export const IntroSection = () => {
                 developement.
               </span>
             </h1>
-            <button className="btn btn-success rounded-pill btn-rounded ">
+            <button className="btn btn-success rounded-pill btn-rounded">
               Get in Touch
-              <span className="mx-1">
-                <i className="bi bi-arrow-right-circle"></i>
+              <span>
+                <i className="bi bi-arrow-right-circle ml-2"></i>
               </span>
             </button>
           </div>
