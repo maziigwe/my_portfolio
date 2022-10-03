@@ -97,16 +97,30 @@ $light-green-color: #00887a;
 
 .light {
   @include gradient($primary, $secondary);
+  animation: bgcoloranimation_light 5000ms 1000ms linear infinite alternate;
+
   $headings-color: $gray-800;
   $link-color: $gray-800;
 
   $nav-link-color: $gray-800;
-  $nav-link-hover-color: $gray-700;
+  $nav-link-hover-color: #037e72;
 
   //    //Toggler Icon
   //    $navbar-light-toggler-icon-bg: gold;
   //    $navbar-light-toggler-border-color:gold;
   ._navbar {
+    .navbar-brand h1 {
+      color: #025f56;
+    }
+    .navbar-brand h1:hover {
+      color: #037e72;
+      transform: translateX(-3px);
+    }
+    ._collapsable {
+      .navbar-nav .nav-link:hover {
+        transform: translateY(1.5px);
+      }
+    }
     @media (max-width: 768px) {
       ._collapsable {
         background: rgba(0, 0, 0, 0.05);
