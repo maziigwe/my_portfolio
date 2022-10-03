@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg _navbar shadow">
       <div className="container ">
         <a className="navbar-brand mx-4 " href="#">
-          <h3>IGWE ACHA</h3>
+          <h1>IGWE ACHA</h1>
         </a>
 
         <button
