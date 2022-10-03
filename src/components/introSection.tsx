@@ -6,9 +6,9 @@ export const IntroSection = () => {
   return (
     <section id="home" className="intro-section ">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-baseline">
           <div className="col-md-6 intros text-start">
-            <h1 className="display-2">
+            <h2 className="display-2">
               <span className="display-2--intro ">
                 <Typewriter
                   onInit={(typewriter) => {
@@ -45,7 +45,7 @@ export const IntroSection = () => {
                 A professional software developer. Experinced in frontend web
                 developement.
               </span>
-            </h1>
+            </h2>
             <button className="btn btn-success rounded-pill btn-rounded">
               Get in Touch
               <span>

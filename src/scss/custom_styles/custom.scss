@@ -1,5 +1,6 @@
 @import "./../components/mixins";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./../components/animations";
 
 $bg-dark-color-1: $gray-800;
 $bg-dark-color: $gray-700;
@@ -39,6 +40,9 @@ $light-green-color: #00887a;
   //background:$black
 
   @include gradient($primary-dark, $secondary-dark);
+  //background: $red;
+  animation: bgcoloranimation 5000ms 1000ms linear infinite alternate;
+
   $nav-link-color: $gray-200;
   $nav-link-hover-color: $gray-100;
 
