@@ -12,8 +12,19 @@ export const AboutSection = () => {
         ></path>
       </svg> */}
       <div className="container">
-        <div className="row text-center">
+        <div className="text-center">
           <h4 className="fw-bolder mb-3">About me</h4>
+          <div className="heading-line"></div>
+        </div>
+        <div className="row">
+          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <img
+              className="img-fluid"
+              //   src={developer_photo}
+              alt="igwe acha photo"
+            />
+          </div>
         </div>
       </div>
     </section>
