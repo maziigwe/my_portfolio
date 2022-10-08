@@ -32,3 +32,44 @@
     color: $primary;
   }
 }
+
+//About
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $light-green-color;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $light-green-color;
+}
+
+.display-2 {
+  &--about_me {
+    display: block;
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+    text-transform: none;
+    text-align: justify;
+    text-justify: newspaper;
+  }
+}
+.about-me {
+  font-family: "Merriweather", serif;
+
+  .image_container {
+    border-radius: 200%;
+    margin: 0 auto;
+    max-height: 100%;
+  }
+}
