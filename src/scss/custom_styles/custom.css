@@ -11374,6 +11374,9 @@ textarea.form-control-lg {
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
 }
+.dark .display-2--about_me {
+  color: #dee2e6;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

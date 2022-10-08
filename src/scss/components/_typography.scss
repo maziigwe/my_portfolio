@@ -7,9 +7,9 @@
   font-weight: 700;
 }
 
+//Intro section
 .display-2 {
   margin-bottom: 1rem;
-  // text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 
   &--intro {
@@ -18,7 +18,6 @@
     font-family: "Poppins", sans-serif;
   }
   &--description {
-    font-size: 1rem;
     display: block;
     margin-top: 1.2rem;
     font-size: 1.5rem;

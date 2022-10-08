@@ -11374,6 +11374,9 @@ textarea.form-control-lg {
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
 }
+.dark .display-2--about_me {
+  color: #dee2e6;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -40763,6 +40766,9 @@ textarea.form-control-lg {
 }
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
+}
+.dark .display-2--about_me {
+  color: #dee2e6;
 }
 .dark :root {
   --bs-blue: #0d6efd;
@@ -58817,7 +58823,6 @@ a > .light code {
   font-family: "Poppins", sans-serif;
 }
 .display-2--description {
-  font-size: 1rem;
   display: block;
   margin-top: 1.2rem;
   font-size: 1.5rem;
@@ -58827,6 +58832,44 @@ a > .light code {
 .intro-section .btn-rounded {
   background-color: #00887a;
   color: #d3e3fc;
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #00887a;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #00887a;
+}
+
+.display-2--about_me {
+  display: block;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  text-transform: none;
+  text-align: justify;
+  text-justify: newspaper;
+}
+
+.about-me {
+  font-family: "Merriweather", serif;
+}
+.about-me .image_container {
+  border-radius: 200%;
+  margin: 0 auto;
+  max-height: 100%;
 }
 
 /*!
@@ -69377,6 +69420,9 @@ textarea.form-control-lg {
 }
 .dark ._navbar .social-links a:hover {
   color: #6c757d;
+}
+.dark .display-2--about_me {
+  color: #dee2e6;
 }
 .dark :root {
   --bs-blue: #0d6efd;
