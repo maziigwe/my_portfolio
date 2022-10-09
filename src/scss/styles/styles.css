@@ -58893,7 +58893,7 @@ a > .light code {
     font-size: 1.2rem;
   }
   .about-me .image_container {
-    width: 650px;
+    width: 550px;
     margin: 0 auto;
   }
 }
@@ -87486,6 +87486,11 @@ a > .light code {
   }
 }
 
+@media (min-width: 1024px) {
+  ._navbar ._collapsable {
+    font-weight: 600;
+  }
+}
 ._navbar .main-list li {
   padding-left: 10px;
 }

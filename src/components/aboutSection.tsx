@@ -36,7 +36,7 @@ export const AboutSection = () => {
             >
               Igwe Acha A.
             </span>
-            , I am a Frontend developer. I have about four years of professional
+            , I am a Software developer. I have about four years of professional
             experince using frontend technologies such as:{" "}
             <span
               style={{
