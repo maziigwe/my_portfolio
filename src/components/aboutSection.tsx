@@ -26,7 +26,7 @@ export const AboutSection = () => {
             />
           </div>
 
-          <div className="col-md-6 px-3 pt-3 display-2--about_me">
+          <div className="col-md-6 px-3 pt-3  display-2--about_me">
             My name is{" "}
             <span
               style={{

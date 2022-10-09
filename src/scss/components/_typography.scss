@@ -14,8 +14,7 @@
 
   &--intro {
     display: inline-block;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-weight: 600;
   }
   &--description {
     display: block;
@@ -23,6 +22,19 @@
     font-size: 1.35rem;
     line-height: 1.2;
     text-transform: none;
+  }
+}
+@media (min-width: 1024px) {
+  .display-2 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+
+    &--intro {
+      font-weight: 700;
+    }
+    &--description {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -57,7 +69,7 @@
 .display-2 {
   &--about_me {
     display: block;
-    margin-top: 1.2rem;
+    margin-top: 1.1rem;
     font-size: 1.1rem;
     text-transform: none;
     text-align: justify;
@@ -76,5 +88,19 @@
     width: 250px;
 
     margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .display-2 {
+    &--about_me {
+      margin-top: 1.2rem;
+      font-size: 1.2rem;
+    }
+  }
+  .about-me {
+    .image_container {
+      width: 650px;
+      margin: 0 auto;
+    }
   }
 }

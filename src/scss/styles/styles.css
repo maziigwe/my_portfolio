@@ -58819,8 +58819,7 @@ a > .light code {
 }
 .display-2--intro {
   display: inline-block;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .display-2--description {
   display: block;
@@ -58830,6 +58829,18 @@ a > .light code {
   text-transform: none;
 }
 
+@media (min-width: 1024px) {
+  .display-2 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .display-2--intro {
+    font-weight: 700;
+  }
+  .display-2--description {
+    font-size: 1.5rem;
+  }
+}
 .intro-section .btn-rounded {
   background-color: #00887a;
   color: #d3e3fc;
@@ -58857,7 +58868,7 @@ a > .light code {
 
 .display-2--about_me {
   display: block;
-  margin-top: 1.2rem;
+  margin-top: 1.1rem;
   font-size: 1.1rem;
   text-transform: none;
   text-align: justify;
@@ -58876,6 +58887,16 @@ a > .light code {
   margin: 0 auto;
 }
 
+@media (min-width: 1024px) {
+  .display-2--about_me {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+  .about-me .image_container {
+    width: 650px;
+    margin: 0 auto;
+  }
+}
 /*!
  * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
