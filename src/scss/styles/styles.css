@@ -58825,7 +58825,8 @@ a > .light code {
 .display-2--description {
   display: block;
   margin-top: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
   text-transform: none;
 }
 
@@ -58860,7 +58861,9 @@ a > .light code {
   font-size: 1.1rem;
   text-transform: none;
   text-align: justify;
-  text-justify: newspaper;
+  text-justify: inter-word;
+  overflow-wrap: break-word;
+  word-break: keep-all;
 }
 
 .about-me {
@@ -58868,8 +58871,9 @@ a > .light code {
 }
 .about-me .image_container {
   border-radius: 200%;
-  margin: 0 auto;
   max-height: 100%;
+  width: 250px;
+  margin: 0 auto;
 }
 
 /*!

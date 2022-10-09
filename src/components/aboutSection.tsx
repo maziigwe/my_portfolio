@@ -18,7 +18,7 @@ export const AboutSection = () => {
           <div className="heading-line"></div>
         </div>
         <div className="row pt-4 ">
-          <div className="col-md-6 p-sm-4 p-md-3">
+          <div className="col-md-6 p-sm-4 p-md-3 text-center ">
             <img
               className="img-fluid image_container"
               src={igwe_acha}
@@ -93,12 +93,13 @@ export const AboutSection = () => {
             >
               Bootstrap
             </span>
+            ,
             <span
               style={{
                 color: "#00887a",
               }}
             >
-              Tailwind css
+              Tailwind
             </span>
             ,
             <span
