@@ -3,6 +3,7 @@ import { AboutSection } from "./components/aboutSection";
 import { IntroSection } from "./components/introSection";
 
 import { Navbar } from "./components/navbar";
+import { Projects } from "./components/projects";
 import { themeContextProvider } from "./context/themeContext";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <IntroSection />
       <AboutSection />
+      <Projects />
     </main>
   );
 }
