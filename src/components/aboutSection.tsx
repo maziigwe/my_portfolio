@@ -126,10 +126,33 @@ export const AboutSection = () => {
               Remote work.
             </span>
             <br />
+            <br />
+            I enjoy participating in all the stages of the sofware development
+            cycle; from developing reusable UI components using React.js &
+            Typescript, to building and integrating the backend API using
+            Node.js, Express server & MongoDB.
+            <br />
             <br />I create scalable, maintainable, fun, innovative, accessible
             and fast websites. I try to make all lines of my code more readable,
             modular, performant and accessible than I found it, to make life
             easier for my team.
+            <br />
+            <br />
+            In all my previous roles, I have contributed collaboration,
+            innovation, and leadership toward team efforts and business
+            improvements. I am progressive minded and in tune with new
+            developments in my in the Software development industry. I have
+            proven to be effective and collaborative with strong communication
+            skill, proven presentation and leadership skill. I enjoy collective
+            brainstorming sessions which allows me to coordinate activities to
+            achieve a common goal.
+            <br />
+            <br />
+            Beyond Software engineering, I am also passionate about writing,
+            mentoring and sharing my knowledge and experince with my mentees and
+            teammates through social media.
+            <br />
+            Get in touch today, to learn more about me🤓.
           </div>
         </div>
       </div>
