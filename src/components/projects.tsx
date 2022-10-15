@@ -8,7 +8,7 @@ interface aboutProps {
 }
 export const Projects = ({ title }: aboutProps) => {
   return (
-    <section id="projects" className="">
+    <section id="projects" className="projects py-2">
       <div className="container">
         {" "}
         <SectionTitle title={title} />
