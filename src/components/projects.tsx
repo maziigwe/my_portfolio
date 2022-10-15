@@ -1,11 +1,19 @@
 import React from "react";
 import { Project } from "../models/project";
+import heading from "./../models/heading";
+import { SectionTitle } from "./atoms/sectionTitle";
 
-export const Projects = () => {
+interface aboutProps {
+  title: heading;
+}
+export const Projects = ({ title }: aboutProps) => {
   return (
-    <div>
-      Projects
-      <Project />
-    </div>
+    <section id="projects" className="">
+      <div className="container">
+        {" "}
+        <SectionTitle title={title} />
+        <Project />
+      </div>
+    </section>
   );
 };

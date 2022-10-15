@@ -1,22 +1,16 @@
 import React from "react";
 import igwe_acha from "./../../src/images/igwe_acha.jpg";
+import { SectionTitle } from "./atoms/sectionTitle";
+import heading from "../models/heading";
 
-export const AboutSection = () => {
+interface aboutProps {
+  title: heading;
+}
+export const AboutSection = ({ title }: aboutProps) => {
   return (
     <section id="about-me" className="about-me pt-4">
-      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
-        <path
-          // fill="#273036"
-          fill="#b1cefc"
-          fill-opacity="1"
-          d="M0,160L120,160C240,160,480,160,720,138.7C960,117,1200,75,1320,53.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-        ></path>
-      </svg> */}
       <div className="container">
-        <div className="text-center">
-          <h4 className="fw-bolder mb-2">ABOUT ME</h4>
-          <div className="heading-line"></div>
-        </div>
+        <SectionTitle title={title} />
         <div className="row pt-4 ">
           <div className="col-md-6 p-sm-4 p-md-3 text-center ">
             <img
@@ -156,6 +150,13 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+        <path
+          fill="#273036"
+          fill-opacity="1"
+          d="M0,32L120,64C240,96,480,160,720,165.3C960,171,1200,117,1320,90.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+        ></path>
+      </svg>
     </section>
   );
 };
