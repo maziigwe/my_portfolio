@@ -58902,6 +58902,18 @@ a > .light code {
     margin: 0 auto;
   }
 }
+.projects .text-center {
+  text-transform: uppercase;
+}
+.projects ._container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+.projects ._container ._project {
+  height: 150px;
+}
+
 /*!
  * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
