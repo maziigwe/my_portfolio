@@ -11378,6 +11378,9 @@ textarea.form-control-lg {
 .dark .display-2--about_me {
   color: #dee2e6;
 }
+.dark ._project {
+  color: #e9ecef;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -15092,7 +15095,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -15142,7 +15145,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #dee2e6;
+  background-color: #212529;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -15150,7 +15154,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #dee2e6;
+  background-color: #212529;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -15161,6 +15166,10 @@ a > .dark code {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
+}
+.dark .card-header-tabs .nav-link.active {
+  background-color: #212529;
+  border-bottom-color: #212529;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -20423,6 +20432,9 @@ a > .dark code {
 }
 .light ._navbar .bi-whatsapp {
   color: #198754;
+}
+.light ._project {
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;

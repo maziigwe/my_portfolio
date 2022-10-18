@@ -38,7 +38,7 @@ $light-green-color: #00887a;
 
 .dark {
   //background:$black
-
+  color: $gray-200;
   @include gradient($primary-dark, $secondary-dark);
   //background: $red;
   animation: bgcoloranimation 5000ms 1000ms linear infinite alternate;
@@ -48,6 +48,9 @@ $light-green-color: #00887a;
 
   $headings-color: $gray-300;
   $link-color: $gray-300;
+  $card-bg: $gray-900;
+  $card-cap-bg: $gray-900;
+  $card-cap-color: $gray-300;
 
   ._navbar {
     // .about-me {
@@ -95,10 +98,15 @@ $light-green-color: #00887a;
     }
   }
 
+  //About
   .display-2 {
     &--about_me {
       color: $gray-300;
     }
+  }
+  //Projects
+  ._project {
+    color: $gray-200;
   }
   //IMPORT BOOTSTRAP
   @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
@@ -118,6 +126,7 @@ $light-green-color: #00887a;
   //    $navbar-light-toggler-icon-bg: gold;
   //    $navbar-light-toggler-border-color:gold;
 
+  //Navbar
   ._navbar {
     .navbar-brand h1 {
       color: #025f56;
@@ -163,6 +172,10 @@ $light-green-color: #00887a;
     .bi-whatsapp {
       color: $green-500;
     }
+  }
+  //Projects
+  ._project {
+    color: $gray-800;
   }
 
   //IMPORT BOOTSTRAP

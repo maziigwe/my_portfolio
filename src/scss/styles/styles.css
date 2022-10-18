@@ -11378,6 +11378,9 @@ textarea.form-control-lg {
 .dark .display-2--about_me {
   color: #dee2e6;
 }
+.dark ._project {
+  color: #e9ecef;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -15092,7 +15095,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #343a40;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -15142,7 +15145,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -15150,7 +15154,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -15161,6 +15166,10 @@ a > .dark code {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
+}
+.dark .card-header-tabs .nav-link.active {
+  background-color: #343a40;
+  border-bottom-color: #343a40;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -20423,6 +20432,12 @@ a > .dark code {
 }
 .light ._navbar .bi-whatsapp {
   color: #198754;
+}
+.light ._project {
+  color: #212529;
+}
+.light ._project .card {
+  background-color: #dee2e6;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -40772,6 +40787,9 @@ textarea.form-control-lg {
 .dark .display-2--about_me {
   color: #dee2e6;
 }
+.dark ._project {
+  color: #e9ecef;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -44486,7 +44504,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #343a40;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -44536,7 +44554,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -44544,7 +44563,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -44555,6 +44575,10 @@ a > .dark code {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
+}
+.dark .card-header-tabs .nav-link.active {
+  background-color: #343a40;
+  border-bottom-color: #343a40;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -49817,6 +49841,12 @@ a > .dark code {
 }
 .light ._navbar .bi-whatsapp {
   color: #198754;
+}
+.light ._project {
+  color: #212529;
+}
+.light ._project .card {
+  background-color: #dee2e6;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -58910,8 +58940,9 @@ a > .light code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
 }
-.projects ._container ._project {
-  height: 150px;
+.projects ._container ._project .img-fluid {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /*!
@@ -69467,6 +69498,9 @@ textarea.form-control-lg {
 .dark .display-2--about_me {
   color: #dee2e6;
 }
+.dark ._project {
+  color: #e9ecef;
+}
 .dark :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -73181,7 +73215,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #343a40;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -73231,7 +73265,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -73239,7 +73274,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
+  color: #e9ecef;
+  background-color: #343a40;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -73250,6 +73286,10 @@ a > .dark code {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
+}
+.dark .card-header-tabs .nav-link.active {
+  background-color: #343a40;
+  border-bottom-color: #343a40;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -78512,6 +78552,12 @@ a > .dark code {
 }
 .light ._navbar .bi-whatsapp {
   color: #198754;
+}
+.light ._project {
+  color: #212529;
+}
+.light ._project .card {
+  background-color: #dee2e6;
 }
 .light :root {
   --bs-blue: #0d6efd;
