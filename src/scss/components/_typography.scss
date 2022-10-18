@@ -119,7 +119,10 @@
     gap: 10px;
 
     ._project {
-      height: 150px;
+      // height: 250px;
+      .img-fluid {
+        object-fit: contain;
+      }
     }
   }
 }
