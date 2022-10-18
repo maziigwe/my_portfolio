@@ -1,6 +1,7 @@
 export default interface project {
   id: Number;
+  title: string;
   repo: string;
-  dist: string;
+  description: string;
   image: string;
 }
