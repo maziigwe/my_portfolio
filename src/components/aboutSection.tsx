@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import igwe_acha from "./../../src/images/igwe_acha.jpg";
 import { SectionTitle } from "./atoms/sectionTitle";
+import { ThemeContext } from "../context/themeContext";
+import { ThemeContextType } from "../interfaces/theme";
 import heading from "../models/heading";
 
 interface aboutProps {
   title: heading;
 }
 export const AboutSection = ({ title }: aboutProps) => {
+  const { theme } = useContext(ThemeContext) as ThemeContextType;
   return (
     <section id="about-me" className="about-me pt-4">
       <div className="container">
@@ -152,7 +155,7 @@ export const AboutSection = ({ title }: aboutProps) => {
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
         <path
-          fill="#273036"
+          fill={theme === "dark" ? "#273036" : "#b1cefc"}
           fill-opacity="1"
           d="M0,32L120,64C240,96,480,160,720,165.3C960,171,1200,117,1320,90.7L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
         ></path>

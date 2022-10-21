@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/themeContext";
+import { ThemeContextType } from "../interfaces/theme";
 import Typewriter from "typewriter-effect";
 import developer_photo from "./../images/developer_photo.png";
 
 export const IntroSection = () => {
+  const { theme } = useContext(ThemeContext) as ThemeContextType;
   return (
     <section id="home" className="intro-section ">
       <div className="container">
@@ -73,7 +76,7 @@ export const IntroSection = () => {
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#273036"
+          fill={theme === "dark" ? "#273036" : "#b1cefc"}
           // fill="#b1cefc"
           fill-opacity="1"
           d="M0,288L120,240C240,192,480,96,720,53.3C960,11,1200,21,1320,26.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"

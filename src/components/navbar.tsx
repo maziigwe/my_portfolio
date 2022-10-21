@@ -1,9 +1,10 @@
-import React from "react";
-//import '../styles/navbar.css'
+import React, { useContext } from "react";
+import { ThemeContext } from "../context/themeContext";
+import { Theme, ThemeContextType } from "../interfaces/theme";
 
 export const Navbar = () => {
+  const { theme, changeTheme } = useContext(ThemeContext) as ThemeContextType;
   return (
-    // <div className="container shadow-sm ">
     <nav className="navbar navbar-expand-lg _navbar shadow">
       <div className="container ">
         <a className="navbar-brand mx-4 " href="#">
@@ -75,13 +76,18 @@ export const Navbar = () => {
             </li>
           </ul>
 
-          <div className="mx-lg-5 d-flex align-items-center switch-toggle">
+          <div
+            className="mx-lg-5 d-flex align-items-center switch-toggle"
+            onClick={() => {
+              changeTheme(theme === "light" ? "dark" : "light");
+              console.log(theme);
+            }}
+          >
             <i className="bi bi-toggle-on"></i>
             <span className="mx-1">Dark Theme</span>
           </div>
         </div>
       </div>
     </nav>
-    // </div>
   );
 };
