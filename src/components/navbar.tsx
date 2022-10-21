@@ -50,25 +50,25 @@ export const Navbar = () => {
 
           <ul className="navbar-text d-flex justify-content-start my-2 social-links">
             <li className="mx-1">
-              <a href="#github">
+              <a href="https://github.com/maziigwe">
                 <i className="bi bi-github mx-1"></i>
                 <span>Github</span>
               </a>
             </li>
             <li className="mx-1">
-              <a href="#twitter">
+              <a href="https://twitter.com/igcha001?t=sLiPp-hzpXDpRrFExTlf7A&s=09">
                 <i className="bi bi-twitter mx-1"></i>
                 <span>Twitter</span>
               </a>
             </li>
             <li className="mx-1">
-              <a href="#linkedl">
+              <a href="https://www.linkedin.com/in/igweacha">
                 <i className="bi bi-linkedin mx-1"></i>
                 <span>Linkedln</span>
               </a>
             </li>
             <li className="mx-1">
-              <a href="#whatsapp">
+              <a href="https://wa.me/2347062232657">
                 <i className="bi bi-whatsapp mx-1"></i>
                 <span>WhatsApp</span>
               </a>

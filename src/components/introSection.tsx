@@ -46,12 +46,15 @@ export const IntroSection = () => {
                 developement.
               </span>
             </h2>
-            <button className="btn btn-success rounded-pill btn-rounded">
+            <a
+              href="mailto:igweacha@gmail.com?Subject=INTERVIEW%20REQUEST"
+              className="btn btn-success rounded-pill btn-rounded"
+            >
               Get in Touch
               <span>
-                <i className="bi bi-arrow-right-circle ml-2"></i>
+                <i className="bi bi-envelope ml-2"></i>
               </span>
-            </button>
+            </a>
           </div>
           <div className="col-md-6 intros">
             <div className="video-box text-center">
