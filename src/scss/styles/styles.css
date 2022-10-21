@@ -15095,7 +15095,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #343a40;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -15145,8 +15145,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -15154,8 +15154,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -15168,8 +15168,8 @@ a > .dark code {
   border-bottom: 0;
 }
 .dark .card-header-tabs .nav-link.active {
-  background-color: #343a40;
-  border-bottom-color: #343a40;
+  background-color: #212529;
+  border-bottom-color: #212529;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -20434,10 +20434,7 @@ a > .dark code {
   color: #198754;
 }
 .light ._project {
-  color: #212529;
-}
-.light ._project .card {
-  background-color: #dee2e6;
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -44504,7 +44501,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #343a40;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -44554,8 +44551,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -44563,8 +44560,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -44577,8 +44574,8 @@ a > .dark code {
   border-bottom: 0;
 }
 .dark .card-header-tabs .nav-link.active {
-  background-color: #343a40;
-  border-bottom-color: #343a40;
+  background-color: #212529;
+  border-bottom-color: #212529;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -49843,10 +49840,7 @@ a > .dark code {
   color: #198754;
 }
 .light ._project {
-  color: #212529;
-}
-.light ._project .card {
-  background-color: #dee2e6;
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;
@@ -73215,7 +73209,7 @@ a > .dark code {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #343a40;
+  background-color: #212529;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -73265,8 +73259,8 @@ a > .dark code {
 .dark .card-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-header:first-child {
@@ -73274,8 +73268,8 @@ a > .dark code {
 }
 .dark .card-footer {
   padding: 0.5rem 1rem;
-  color: #e9ecef;
-  background-color: #343a40;
+  color: #dee2e6;
+  background-color: #212529;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .dark .card-footer:last-child {
@@ -73288,8 +73282,8 @@ a > .dark code {
   border-bottom: 0;
 }
 .dark .card-header-tabs .nav-link.active {
-  background-color: #343a40;
-  border-bottom-color: #343a40;
+  background-color: #212529;
+  border-bottom-color: #212529;
 }
 .dark .card-header-pills {
   margin-right: -0.5rem;
@@ -78554,10 +78548,7 @@ a > .dark code {
   color: #198754;
 }
 .light ._project {
-  color: #212529;
-}
-.light ._project .card {
-  background-color: #dee2e6;
+  color: #343a40;
 }
 .light :root {
   --bs-blue: #0d6efd;
