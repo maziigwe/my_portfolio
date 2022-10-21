@@ -1,4 +1,5 @@
 import { title } from "process";
+import { Suspense } from "react";
 import "./App.css";
 import { AboutSection } from "./components/aboutSection";
 import { IntroSection } from "./components/introSection";
@@ -16,12 +17,14 @@ const project: heading = {
 };
 function App() {
   return (
-    <main className="dark ">
-      <Navbar />
-      <IntroSection />
-      <AboutSection title={about} />
-      <Projects title={project} />
-    </main>
+    <Suspense fallback="Loading...">
+      <main className="dark ">
+        <Navbar />
+        <IntroSection />
+        <AboutSection title={about} />
+        <Projects title={project} />
+      </main>
+    </Suspense>
   );
 }
 export default App;
