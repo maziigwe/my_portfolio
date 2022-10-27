@@ -31,6 +31,7 @@ const projectList: project[] = [
     title: "Project 3",
     description: "Project 3 description",
     repo: "",
+    isLive: true,
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
@@ -39,6 +40,7 @@ const projectList: project[] = [
     title: "Project 4",
     description: "Description of project 4",
     repo: "",
+    isLive: true,
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
@@ -47,6 +49,7 @@ const projectList: project[] = [
     title: "Project 5",
     description: "Project 5 description",
     repo: "",
+    isLive: true,
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
