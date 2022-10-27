@@ -58934,9 +58934,37 @@ a > .light code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px;
 }
+.projects ._container ._project {
+  transition: opacity 250ms;
+}
+.projects ._container ._project:hover {
+  opacity: 0.7;
+}
 .projects ._container ._project .img-fluid {
   -o-object-fit: contain;
      object-fit: contain;
+}
+.projects ._container .card-footer {
+  opacity: 0.9;
+  background-color: inherit;
+}
+.projects ._container .card-footer p {
+  line-height: 0.91;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.projects ._container .card-header {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 /*!
