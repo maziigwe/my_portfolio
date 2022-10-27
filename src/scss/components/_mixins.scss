@@ -15,3 +15,13 @@
   left: 15%;
   transform: rotate(190deg);
 }
+
+//Text limiter
+@mixin textLimit($lines) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
