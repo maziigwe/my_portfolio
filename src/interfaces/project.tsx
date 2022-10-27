@@ -4,4 +4,5 @@ export default interface project {
   repo: string;
   description: string;
   image: string;
+  isLive?: boolean | false;
 }
