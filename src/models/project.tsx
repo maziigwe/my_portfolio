@@ -3,18 +3,33 @@ import project from "../interfaces/project";
 
 export const Project = (item: project) => {
   return (
-    <div className="position-relative mx-1 card shadow _project">
-      <h4 className="card-header">{item.title}</h4>
+    <div className="position-relative flex flex-column justify-content-between card shadow _project">
+      <h4 className="card-header text-uppercase p-2 pb-0">{item.title}</h4>
 
-      {/* {item.dist} */}
       <div>
         {" "}
         <img className="card-img img-fluid" src={item.image} />
       </div>
-      <p className="px-2 m-0">{item.description}</p>
-      <div className="text-right card-footer bottom-0  right-0 left-0  ">
-        <div className=" btn btn-outline-primary mx-2 "> {"Code </>"} </div>
-        <div className="btn btn-primary">Live</div>
+
+      <div className="flex flex-column position-absolute justify-content-between p-1 text-justify card-footer bottom-0  right-0 left-0  ">
+        <p className="text-lowercase m-0 mb-1">
+          {item.description + "" + item.description}
+        </p>
+        <div className="text-right">
+          <a href={`${item.repo ? item.repo : ""}`}>
+            <div className=" btn btn-outline-primary mx-2  ">
+              {" "}
+              {"Code </>"}{" "}
+            </div>
+          </a>
+          <div
+            className={`btn btn-primary mr-1  ${
+              !item.isLive ? " disabled " : ""
+            }`}
+          >
+            Live
+          </div>
+        </div>
       </div>
     </div>
   );
