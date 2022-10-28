@@ -11,6 +11,7 @@ const projectList: project[] = [
   {
     id: 1,
     title: "I4G-HACKTOBER OPEN-SOURCE CHALLENGE-2022",
+    type: "open source",
     description:
       "TECHMART is an open-source project that I recently contributed to",
     repo: "https://github.com/Ingressive-for-Good/I4G-OPENSOURCE-FRONTEND-PROJECT-2022",
@@ -22,6 +23,7 @@ const projectList: project[] = [
     title: "Project 2",
     description: "Description of project 2",
     repo: "",
+    type: "side project",
     isLive: true,
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
@@ -31,6 +33,7 @@ const projectList: project[] = [
     title: "Project 3",
     description: "Project 3 description",
     repo: "",
+    type: "open source",
     isLive: true,
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
@@ -41,6 +44,7 @@ const projectList: project[] = [
     description: "Description of project 4",
     repo: "",
     isLive: true,
+    type: "side project",
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
@@ -50,6 +54,7 @@ const projectList: project[] = [
     description: "Project 5 description",
     repo: "",
     isLive: true,
+    type: "contract",
     image:
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
