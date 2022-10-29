@@ -5,7 +5,7 @@ import { Theme, ThemeContextType } from "../interfaces/theme";
 export const Navbar = () => {
   const { theme, changeTheme } = useContext(ThemeContext) as ThemeContextType;
   return (
-    <nav className="navbar navbar-expand-lg _navbar shadow">
+    <nav className="navbar fixed-top navbar-expand-lg _navbar shadow">
       <div className="container ">
         <a className="navbar-brand mx-4 " href="#">
           <h1>IGWE ACHA</h1>
