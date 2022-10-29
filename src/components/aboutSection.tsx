@@ -33,8 +33,8 @@ export const AboutSection = ({ title }: aboutProps) => {
             >
               Igwe Acha A.
             </span>
-            , I am a Software developer. I have about four years of professional
-            experince using frontend technologies such as:{" "}
+            , I am a Software developer. I have about five years of professional
+            experience working with different frontend technologies such as:{" "}
             <span
               style={{
                 color: "#00887a",
@@ -125,9 +125,9 @@ export const AboutSection = ({ title }: aboutProps) => {
             <br />
             <br />
             I enjoy participating in all the stages of the sofware development
-            cycle; from developing reusable UI components using React.js &
-            Typescript, to building and integrating the backend API using
-            Node.js, Express server & MongoDB.
+            cycle; from design to developing reusable UI components using
+            React.js & Typescript, to building and integrating the backend API
+            using Node.js, Express server & MongoDB.
             <br />
             <br />I create scalable, maintainable, fun, innovative, accessible
             and fast websites. I try to make all lines of my code more readable,
@@ -135,14 +135,13 @@ export const AboutSection = ({ title }: aboutProps) => {
             easier for my team.
             <br />
             <br />
-            In all my previous roles, I have contributed collaboration,
-            innovation, and leadership toward team efforts and business
-            improvements. I am progressive minded and in tune with new
-            developments in my in the Software development industry. I have
-            proven to be effective and collaborative with strong communication
-            skill, proven presentation and leadership skill. I enjoy collective
-            brainstorming sessions which allows me to coordinate activities to
-            achieve a common goal.
+            In all my previous roles, I have contributed innovation, and
+            leadership towards team efforts and business improvements. I am
+            progressive minded and in tune with new technologies in the Software
+            development industry. I have proven to be effective and
+            collaborative with strong communication skills, proven presentation
+            and leadership skill. I enjoy collective brainstorming sessions
+            which allows me to coordinate activities to achieve a common goal.
             <br />
             <br />
             Beyond Software engineering, I am also passionate about writing,
