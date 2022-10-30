@@ -19,20 +19,21 @@ export const Project = (item: project) => {
         <div className="flex justify-content-between">
           <Badge title={item.type} />
           <div className="text-right">
-            {" "}
-            <a href={`${item.repo ? item.repo : ""}`}>
+            <a href={`${item.repo ? item.repo : ""}`} target="_blank">
               <div className=" btn btn-outline-primary mx-2  ">
                 {" "}
-                {"Code </>"}{" "}
+                {"Code </>"}
               </div>
             </a>
-            <div
+
+            <a
+              href="#"
               className={`btn btn-primary mr-1  ${
                 !item.isLive ? " disabled " : ""
               }`}
             >
               Live
-            </div>
+            </a>
           </div>
         </div>
       </div>
