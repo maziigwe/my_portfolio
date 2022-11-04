@@ -41,7 +41,7 @@ $light-green-color: #00887a;
   color: $gray-200;
   @include gradient($primary-dark, $secondary-dark);
   //background: $red;
-  animation: bgcoloranimation 5000ms 1000ms linear infinite alternate;
+  //animation: bgcoloranimation 5000ms 1000ms linear infinite alternate;
 
   $nav-link-color: $gray-200;
   $nav-link-hover-color: $gray-100;
@@ -52,10 +52,15 @@ $light-green-color: #00887a;
   $card-cap-bg: $gray-900;
   $card-cap-color: $gray-300;
 
+  .navbar,
+  .shadow {
+    background-color: $secondary-dark;
+  }
   ._navbar {
     // .about-me {
     //   color: $gray-100;
     // }
+
     @media (max-width: 768px) {
       ._collapsable {
         background: hsla(0, 0%, 0%, 0.85);
@@ -127,6 +132,10 @@ $light-green-color: #00887a;
   //    $navbar-light-toggler-border-color:gold;
 
   //Navbar
+  .navbar,
+  .shadow {
+    background-color: $primary;
+  }
   ._navbar {
     .navbar-brand h1 {
       color: #025f56;
