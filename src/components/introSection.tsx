@@ -3,6 +3,7 @@ import { ThemeContext } from "../context/themeContext";
 import { ThemeContextType } from "../interfaces/theme";
 import Typewriter from "typewriter-effect";
 import developer_photo from "./../images/developer_photo.png";
+import developer_photo2 from "./../images/igwe_acha_2.jpg";
 
 export const IntroSection = () => {
   const { theme } = useContext(ThemeContext) as ThemeContextType;
@@ -82,6 +83,9 @@ export const IntroSection = () => {
           d="M0,288L120,240C240,192,480,96,720,53.3C960,11,1200,21,1320,26.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
         ></path>
       </svg>
+      <div className="bg-img">
+        <img src={developer_photo2} alt="Igwe Acha smiling" />
+      </div>
     </section>
   );
 };
