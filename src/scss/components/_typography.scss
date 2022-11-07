@@ -8,6 +8,30 @@
 }
 
 //Intro section
+@media (max-width: 597px) {
+}
+@media (min-width: 597px) {
+}
+.intro-section {
+  position: relative;
+}
+.bg-img img {
+  position: absolute;
+  filter: saturate(50%);
+  height: 100%;
+  width: 100%;
+
+  bottom: 0;
+  object-fit: cover;
+  opacity: 0.25;
+  background-attachment: fixed;
+}
+@media (min-width: 1024px) {
+  .bg-img img {
+    height: 100%;
+    width: 50%;
+  }
+}
 .display-2 {
   margin-bottom: 1rem;
   font-family: "Poppins", sans-serif;
