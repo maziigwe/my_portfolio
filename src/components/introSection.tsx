@@ -8,7 +8,7 @@ import developer_photo2 from "./../images/igwe_acha_2.jpg";
 export const IntroSection = () => {
   const { theme } = useContext(ThemeContext) as ThemeContextType;
   return (
-    <section id="home" className="intro-section ">
+    <section id="home" className="intro-section">
       <div className="container">
         <div className="row align-items-baseline">
           <div className="col-md-6 intros text-start">
