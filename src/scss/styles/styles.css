@@ -58867,10 +58867,11 @@ a > .light code {
   background-attachment: fixed;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .bg-img img {
     height: 100%;
     width: 50%;
+    margin-top: 5rem;
   }
 }
 .display-2 {
