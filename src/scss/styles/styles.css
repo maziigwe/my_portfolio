@@ -58851,8 +58851,19 @@ a > .light code {
   font-weight: 700;
 }
 
+.intro-wave {
+  z-index: 999;
+}
+
 .intro-section {
   position: relative;
+}
+.intro-section .container {
+  z-index: 9;
+}
+
+.bg-img {
+  padding-top: 15rem;
 }
 
 .bg-img img {
@@ -58860,18 +58871,35 @@ a > .light code {
   filter: saturate(50%);
   height: 100%;
   width: 100%;
+  z-index: -1;
   bottom: 0;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0.25;
+  opacity: 1;
   background-attachment: fixed;
 }
 
 @media (min-width: 768px) {
+  .bg-img {
+    padding-top: 20rem;
+  }
   .bg-img img {
     height: 100%;
     width: 50%;
     margin-top: 5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .bg-img {
+    padding-top: 25rem;
+  }
+  .bg-img img {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .bg-img {
+    padding-top: 30rem;
   }
 }
 .display-2 {
