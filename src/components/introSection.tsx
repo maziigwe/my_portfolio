@@ -75,16 +75,18 @@ export const IntroSection = () => {
         </div>
       </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill={theme === "dark" ? "#273036" : "#b1cefc"}
-          // fill="#b1cefc"
-          fill-opacity="1"
-          d="M0,288L120,240C240,192,480,96,720,53.3C960,11,1200,21,1320,26.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-        ></path>
-      </svg>
       <div className="bg-img">
         <img src={developer_photo2} alt="Igwe Acha smiling" />
+      </div>
+      <div className="intro-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill={theme === "dark" ? "#273036" : "#b1cefc"}
+            // fill="#b1cefc"
+            fill-opacity="1"
+            d="M0,288L120,240C240,192,480,96,720,53.3C960,11,1200,21,1320,26.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
       </div>
     </section>
   );
