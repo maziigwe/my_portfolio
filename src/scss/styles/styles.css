@@ -58862,10 +58862,6 @@ a > .light code {
   z-index: 9;
 }
 
-.bg-img {
-  padding-top: 15rem;
-}
-
 .bg-img img {
   position: absolute;
   filter: saturate(50%);
@@ -58880,9 +58876,6 @@ a > .light code {
 }
 
 @media (min-width: 768px) {
-  .bg-img {
-    padding-top: 20rem;
-  }
   .bg-img img {
     height: 100%;
     width: 50%;
@@ -58890,16 +58883,8 @@ a > .light code {
   }
 }
 @media (min-width: 1024px) {
-  .bg-img {
-    padding-top: 25rem;
-  }
   .bg-img img {
     width: 50%;
-  }
-}
-@media (min-width: 1200px) {
-  .bg-img {
-    padding-top: 30rem;
   }
 }
 .display-2 {
