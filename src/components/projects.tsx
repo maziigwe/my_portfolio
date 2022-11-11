@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Project } from "../models/project";
 import heading from "./../models/heading";
 import { SectionTitle } from "./atoms/sectionTitle";
@@ -59,6 +59,8 @@ const projectList: project[] = [
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
 ];
+const [repos, SetRepos] = useState(projectList);
+useEffect(() => {});
 
 export const Projects = ({ title }: aboutProps) => {
   return (
