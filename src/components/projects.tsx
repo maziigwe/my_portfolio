@@ -59,10 +59,10 @@ const projectList: project[] = [
       "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
   },
 ];
-const [repos, SetRepos] = useState(projectList);
-useEffect(() => {});
 
 export const Projects = ({ title }: aboutProps) => {
+  const [repos, SetRepos] = useState(projectList);
+  useEffect(() => {});
   return (
     <section id="projects" className="container py-2 projects ">
       <SectionTitle title={title} />
