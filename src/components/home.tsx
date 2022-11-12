@@ -7,12 +7,16 @@ import { Projects } from "./projects";
 import { ThemeContext } from "../context/themeContext";
 import { ThemeContextType } from "../interfaces/theme";
 import heading from "../models/heading";
+import { Skills } from "./skills";
 
 const about: heading = {
   heading: "About me",
 };
 const project: heading = {
   heading: "Projects",
+};
+const skill: heading = {
+  heading: "Skills",
 };
 
 export const Home = () => {
@@ -24,6 +28,7 @@ export const Home = () => {
         <IntroSection />
         <AboutSection title={about} />
         <Projects title={project} />
+        <Skills title={skill} />
       </Suspense>
     </main>
   );
