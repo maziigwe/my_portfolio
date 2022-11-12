@@ -58867,11 +58867,11 @@ a > .light code {
   filter: saturate(50%);
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
   bottom: 0;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 1;
+  opacity: 0.25;
   background-attachment: fixed;
 }
 
