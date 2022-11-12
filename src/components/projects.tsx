@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { Project } from "../models/project";
+import { ThemeContext } from "../context/themeContext";
+import { ThemeContextType } from "../interfaces/theme";
 import heading from "./../models/heading";
 import { SectionTitle } from "./atoms/sectionTitle";
 import project from "./../interfaces/project";
@@ -62,15 +64,33 @@ const projectList: project[] = [
 
 export const Projects = ({ title }: aboutProps) => {
   const [repos, SetRepos] = useState(projectList);
+  const { theme } = useContext(ThemeContext) as ThemeContextType;
   useEffect(() => {});
   return (
-    <section id="projects" className="container py-2 projects ">
-      <SectionTitle title={title} />
-      <div className="container mt-4 _container">
-        {projectList.map((item) => (
-          <Project key={item.id.toString()} {...item} />
-        ))}
-      </div>
-    </section>
+    <>
+      {" "}
+      <section id="projects" className="container py-2 projects ">
+        <SectionTitle title={title} />
+        <div className="container mt-4 mb-4 _container">
+          {projectList.map((item) => (
+            <Project key={item.id.toString()} {...item} />
+          ))}
+        </div>
+      </section>
+      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill={theme === "dark" ? "#273036" : "#b1cefc"}
+          fill-opacity="1"
+          d="M0,288L1440,224L1440,0L0,0Z"
+        ></path>
+      </svg> */}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 150">
+        <path
+          fill={theme === "dark" ? "#273036" : "#b1cefc"}
+          fill-opacity="1"
+          d="M0,0L720,96L1440,0L1440,0L720,0L0,0Z"
+        ></path>
+      </svg>
+    </>
   );
 };
