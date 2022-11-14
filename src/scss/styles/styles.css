@@ -87778,6 +87778,22 @@ a > .light code {
   }
 }
 
+.skills .text-center {
+  text-transform: uppercase;
+}
+.skills ._container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+.skill-item {
+  text-align: center;
+}
+.skill-item .icon {
+  width: 50%;
+}
+
 .intro-section {
   padding: 15rem 0 0 0;
   width: 100%;
