@@ -3,5 +3,5 @@ export default interface skillInterface {
   icon: String;
   name: String;
   link: String;
-  description: "";
+  description: String;
 }

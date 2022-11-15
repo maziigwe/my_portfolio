@@ -9,9 +9,32 @@ interface skillsProps {
   title: heading;
 }
 const skills: skillInterface[] = [
-  { id: 1, icon: "", link: "", name: "HTML", description: "" },
-  { id: 2, icon: "", link: "", name: "CSS", description: "" },
-  { id: 3, icon: "", link: "", name: "Javascript", description: "" },
+  {
+    id: 1,
+    icon: react,
+    link: "link",
+    name: "REACT",
+    description: "description",
+  },
+  {
+    id: 2,
+    icon: javascript,
+    link: "",
+    name: "Javascript",
+    description: "a powerful scripting language",
+  },
+  {
+    id: 3,
+    icon: typescript,
+    link: "",
+    name: "Typescript",
+    description: "a JS with type",
+  },
+  { id: 4, icon: node, link: "", name: "HTML", description: "" },
+  { id: 5, icon: bootstrap, link: "", name: "CSS", description: "" },
+  { id: 8, icon: tailwidcss, link: "", name: "Javascript", description: "" },
+  { id: 6, icon: mongoDb, link: "", name: "Javascript", description: "" },
+  { id: 7, icon: mysql, link: "", name: "CSS", description: "" },
 ];
 export const Skills = ({ title }: skillsProps) => {
   return (
