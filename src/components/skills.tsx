@@ -2,6 +2,14 @@ import React from "react";
 import skillInterface from "../interfaces/skill";
 import heading from "../models/heading";
 import { SectionTitle } from "./atoms/sectionTitle";
+import react from "./../images/react_icon.png";
+import javascript from "./../images/javascript_icon.png";
+import typescript from "./../images/typescript_icon.png";
+import node from "./../images/node_icon.png";
+import bootstrap from "./../images/bootstrap_icon.png";
+import tailwidcss from "./../images/tailwindcss_icon.png";
+import mysql from "./../images/mysql_icon.png";
+import mongoDb from "./../images/mongoDb_icon.png";
 
 import { Skill } from "./../models/skill";
 
